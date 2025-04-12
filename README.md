@@ -19,4 +19,4 @@
 
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/username/notes-app.git
+   git clone [https://github.com/diyoadisuta/Notes-App.git]
