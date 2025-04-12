@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <!-- Hapus referensi langsung ke file CSS -->
+    <!-- <link rel="stylesheet" href="styles/styles.css" /> -->
+    <link rel="shortcut icon" href="images/sticky-note.png" type="image/png" />
+  </head>
+  <body>
+    <loading-indicator></loading-indicator>
+    <div id="loadingIndicator" style="display: none">Loading...</div>
+    <div class="container">
+      <app-bar title="Notes App"></app-bar>
+      <button id="openArchiveButton" class="floating-button archive-button">
+        📂
+      </button>
+      <div id="notesContainer"></div>
+    </div>
+    <button id="openPopupButton" class="floating-button">+</button>
+    <div id="popupContainer" class="popup">
+      <note-form></note-form>
+    </div>
+    <div id="archivePopupContainer" class="popup">
+      <div class="popup-content">
+        <h2>Archived Notes</h2>
+        <div id="archivedNotesContainer"></div>
+        <button id="closeArchivePopup" class="close">Close</button>
+      </div>
+    </div>
+    <!-- Hapus referensi langsung ke file JavaScript -->
+    <!-- <script src="scripts/app.js" type="module"></script>
+    <script src="scripts/note-item.js" type="module"></script>
+    <script src="scripts/note-form.js" type="module"></script>
+    <script src="scripts/app-bar.js" type="module"></script>
+    <script src="scripts/api.js" type="module"></script>
+    <script src="scripts/loading-indicator.js" type="module"></script> -->
+  </body>
+</html>
