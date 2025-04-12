@@ -20,3 +20,13 @@
 1. Clone repositori ini:
    ```bash
    git clone [https://github.com/diyoadisuta/Notes-App.git]
+2. Install dependencies
+   ```bash
+   npm install
+3. Jalankan aplikasi dalam mode development
+   ```bash
+   npm run start-dev
+4. Buka browser dan akses:
+   ```bash
+   https://localhost:8080
+| Pastikan kamu sudah menginstall Node.js & NPM di komputermu.
